@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: migrations/create_table_articles_v1.sql
+      relativeToChangeLogFile: true
+  - include:
+      file: migrations/create_table_users_v2.sql
+      relativeToChangeLogFile: true
